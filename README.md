@@ -255,3 +255,38 @@ Contributions are welcome! Please:
 <p align="center">
   Built with care for managing your financial future 💚
 </p>
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    Tx[Transactions] --> Categorize[Auto-Categorizer]
+    Categorize --> Budget[Budget Tracker]
+    Budget --> Goals[Goal Engine]
+    Tx --> Charts[Chart.js Reports]
+    App[React PWA] --> Tx
+    App --> LS[(localStorage)]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+_This project is configuration-focused (Terraform / Kubernetes manifests / Docker Compose / PWA). Validation runs via the project's native tooling rather than a unit-test suite._
+
+## References & Further Reading
+
+- Khera, S. (1998). *You Can Win.* Macmillan.
+- Belsky, S. (2010). *Making Ideas Happen.* Portfolio.
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/personal-finance-manager) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->

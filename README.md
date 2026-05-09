@@ -260,6 +260,20 @@ Contributions are welcome! Please:
 
 <!-- showcase:start -->
 
+## Research Report
+
+**Personal Finance Categorization and Goal Tracking**
+
+_An evaluation of unsupervised transaction categorization on the Mint-equivalent dataset and goal-attainment dynamics_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** personal finance, transaction categorization, embeddings, goal tracking, OFX
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
